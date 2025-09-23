@@ -18,6 +18,16 @@ body{
     font-size: 20px;
     text-align: center;
 }
+.banner{
+    background:
+        linear-gradient(#00000099,#31A8DD00)
+        border-box
+    ;
+    width: 100%;
+    height: 605px;
+}
 .banner-content{
     background-image: url(./images/banner.png);
+    width: 100%;
+    height: 605px;
 }
