@@ -11,7 +11,7 @@
 }
 
 body{
-    width: 100vh;
+    width: 100%;
     height: auto;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
@@ -20,8 +20,8 @@ body{
 }
 .banner{
     background:
-        linear-gradient(#00000099,#31A8DD00)
-        border-box
+        linear-gradient(#00000099,#31A8DD00) 605px,
+        linear-gradient(#00000099,#31A8DD00) 605px
     ;
     width: 100%;
     height: 605px;
