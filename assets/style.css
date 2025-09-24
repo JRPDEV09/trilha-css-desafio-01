@@ -12,22 +12,33 @@
 
 body{
     width: 100%;
-    height: auto;
+    height: 1440px;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
 }
-.banner{
-    background:
-        linear-gradient(#00000099,#31A8DD00) 605px,
-        linear-gradient(#00000099,#31A8DD00) 605px
-    ;
-    width: 100%;
-    height: 605px;
+
+button{
+    width: 326px;
+    height: 57px;
+    border: 2px solid #2890c5;
+    color: #2890c5;
+    text-transform:uppercase;
+    font-size: 19px;
+    font-weight: 900;
+    margin: 16px 75px;
+    background-color: transparent;
 }
-.banner-content{
-    background-image: url(./images/banner.png);
-    width: 100%;
-    height: 605px;
+
+p{
+    color: #fff;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer{
+    background-color: #000000;
+    padding: 40px 0px 20px 0px;
 }
